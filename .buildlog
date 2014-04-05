@@ -1,0 +1,387 @@
+---
+build.dart --machine --full
+
+build.dart finished [702 ms]
+
+---
+build.dart --machine --changed=web/websocket_binary_data_example.html
+
+build.dart finished [675 ms]
+
+---
+build.dart --machine --changed=web/websocket_binary_data_example.html
+
+build.dart finished [671 ms]
+
+---
+build.dart --machine --changed=web/counter.dart --removed=web/clickcounter.dart
+
+build.dart finished [717 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [684 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [667 ms]
+
+---
+build.dart --machine --changed=web/websocket_binary_data_example.html
+[{"method":"error","params":{"file":"web/websocket_binary_data_example.html","message":"couldn't find imported asset \"web/counter.html\" in package \"websocket_binary_data_example\".","line":10,"charStart":206,"charEnd":245}}]
+build failed with errors: {Transform polymer (Linter) on websocket_binary_data_example|web/websocket_binary_data_example.html threw error: couldn't find imported asset "web/counter.html" in package "websocket_binary_data_example".}
+build.dart finished [688 ms]
+
+---
+build.dart --machine --changed=web/counter.html --removed=web/clickcounter.html
+
+build.dart finished [704 ms]
+
+---
+build.dart --machine --changed=web/counter.html
+[{"method":"error","params":{"file":"web/counter.html","message":"Invalid name \"counter\". Custom element names must have at least one dash and can't be any of the following names: annotation-xml, color-profile, font-face, font-face-src, font-face-uri, font-face-format, font-face-name, missing-glyph.","line":1,"charStart":0,"charEnd":32}}]
+build failed with errors: {Transform polymer (Linter) on websocket_binary_data_example|web/counter.html threw error: Invalid name "counter". Custom element names must have at least one dash and can't be any of the following names: annotation-xml, color-profile, font-face, font-face-src, font-face-uri, font-face-format, font-face-name, missing-glyph.}
+build.dart finished [691 ms]
+
+---
+build.dart --machine --changed=web/counter.html
+
+build.dart finished [693 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [689 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [726 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [681 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [679 ms]
+
+---
+build.dart --machine --changed=web/websocket_binary_data_example.html
+
+build.dart finished [671 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [719 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [830 ms]
+
+---
+build.dart --machine --changed=web/websocket_binary_data_example.html
+
+build.dart finished [678 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [686 ms]
+
+---
+build.dart --machine --changed=web/counter.html
+
+build.dart finished [700 ms]
+
+---
+build.dart --machine --changed=web/counter.html
+
+build.dart finished [686 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [679 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [700 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [717 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [701 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [794 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [680 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [673 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [748 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [719 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [765 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [734 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [702 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [692 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [795 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [676 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [703 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [672 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [687 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [1298 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [687 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [679 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [689 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [696 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [684 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [678 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [691 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [706 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [762 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [679 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [677 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [2276 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [706 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [695 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [677 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [692 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [690 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [686 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [690 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [785 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [694 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [662 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [718 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [863 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [871 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [852 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [713 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [713 ms]
+
+---
+build.dart --machine --changed=server
+
+build.dart finished [914 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [1851 ms]
+
+---
+build.dart --machine --changed=web/counter.dart
+
+build.dart finished [685 ms]
+
+---
+build.dart --machine --changed=server.go
+
+build.dart finished [1752 ms]
+
+---
+build.dart --machine --changed=server.go
+
+build.dart finished [690 ms]
+
+---
+build.dart --machine --removed=server
+
+build.dart finished [691 ms]
+
