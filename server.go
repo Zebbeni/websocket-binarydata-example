@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"flag"
 	"net/http"
-	"code.google.com/p/go.net/websocket"
+	"golang.org/x/net/websocket"
 	"time"
 	"encoding/binary"
 )
@@ -61,7 +61,7 @@ func main() {
 	go del_trigger_channel(del_chan)
 	go gendata()
 	
-	http.Handle("/", http.FileServer(http.Dir(*root)))
+	http.Handle("/", http.FileServer(http.Dir("build/web")))
 	http.Handle("/tabledata", websocket.Handler(dataFeeder))
 	err := http.ListenAndServe(fmt.Sprintf(":%d", *port), nil)
 	if err != nil {
