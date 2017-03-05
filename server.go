@@ -61,7 +61,7 @@ func main() {
 	go del_trigger_channel(del_chan)
 	go gendata()
 	
-	http.Handle("/", http.FileServer(http.Dir("build/web")))
+	http.Handle("/", http.FileServer(http.Dir("build/web/")))
 	http.Handle("/tabledata", websocket.Handler(dataFeeder))
 	err := http.ListenAndServe(fmt.Sprintf(":%d", *port), nil)
 	if err != nil {

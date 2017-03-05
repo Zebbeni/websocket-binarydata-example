@@ -4,4 +4,4 @@ dependencies:
     polymer: any
 transformers:
 - polymer:
-    entry_points: web/websocket_binary_data_example.html
+    entry_points: web/index.html
